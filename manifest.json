@@ -1,0 +1,26 @@
+
+{
+  "name": "Catequese 2ª Infância",
+  "short_name": "Catequese",
+  "description": "Aplicativo dos Catequistas da Catequese 2ª Infância",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#8C5775",
+  "icons": [
+    {
+      "src": "https://lh3.googleusercontent.com/d/1riI4U1Bc33RO_zIgxeSY7dBbZBi4FNmS=s800",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://lh3.googleusercontent.com/d/1riI4U1Bc33RO_zIgxeSY7dBbZBi4FNmS=s800",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
