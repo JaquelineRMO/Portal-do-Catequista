@@ -1,8 +1,8 @@
 
 {
-  "name": "Catequese 2ª Infância",
-  "short_name": "Catequese",
-  "description": "Aplicativo dos Catequistas da Catequese 2ª Infância",
+  "name": "Portal do Catequista",
+  "short_name": "Portal Catequista",
+  "description": "Portal dos Catequistas da Catequese 2ª Infância",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
