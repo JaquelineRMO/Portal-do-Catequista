@@ -5,7 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#8C5775">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Catequese">
   <title>Catequese 2ª Infância</title>
+  <link rel="manifest" href="./manifest.json">
+
   <style>
     * {
       box-sizing: border-box;
@@ -31,5 +35,13 @@
     allow="clipboard-write"
     title="Catequese 2ª Infância">
   </iframe>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function() {
+        navigator.serviceWorker.register("./sw.js");
+      });
+    }
+  </script>
 </body>
 </html>
